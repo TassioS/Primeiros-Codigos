@@ -1,0 +1,31 @@
+(Questões do código 1)
+
+a.) As saídas para os valores de n são os própios valores de n:5, -5, 10, -45, 0.
+
+b.) O valor de n quando alterado na função abs, não é alterado na função principal pois são variáveis de funções diferentes
+e por isso são variáveis diferentes que ocupam espaços diferentes na memória.
+
+(Questões do código 2)
+
+c.) Serão impressos os números 35 para "y" e 25 para "x".
+
+d.) O valor de "x" foi alterado na função param porém o valor de "x" não foi alterado na função principal. O valor de "x" continua 
+o mesmo na função principal. E o "x" retornado pela função param é assumido pela variavel "y" da função principal. Ou seja,"x" não
+é alterado na função principal e "y" é dado pela função param.
+
+(Questões do código 3)
+
+a.) O valor impresso para "x" será 58, e o valor de "y" também será 58.
+
+b.) O valor de "x" foi alterado na função principal pois a variável "x" foi declarada fora de qualquer função(é uma variável global)
+ e seu valor não foi declarado. A função principal não possui uma variável "x" local, portanto ela está usando a variável "x" global 
+e por isso o valor dela foi alterado na função principal também.
+
+(Questões do código 4)
+
+a.) O valor que será impresso para "x" será o mesmo valor que foi digitado, e o valor impresso para "y" sempre será 30.
+
+b.) O valor de "x" não foi alterado na função principal pois a função principal está usando uma variável "x" local. Portanto
+ela é uma variável que ocupa um lugar diferente na memória da variável "x" global e por isso não foi alterada.
+
+
